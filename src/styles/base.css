@@ -1,0 +1,16 @@
+html {
+  font-size: 112.5%; /* 18px */
+}
+
+body {
+  background-color: #fff;
+  color: #000; /* ! replace with variable */
+  line-height: 1.75;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: var(--fontSize__base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

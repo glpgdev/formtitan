@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.052em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: var(--fontSize__h1);
+}
+
+h2 {
+  font-size: var(--fontSize__h2);
+}
+
+h3 {
+  font-size: var(--fontSize__h3);
+}
+
+h4 {
+  font-size: var(--fontSize__h4);
+}
+
+h5 {
+  font-size: var(--fontSize__h5);
+}
+
+p {
+  margin-bottom: 1rem;
+}

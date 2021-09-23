@@ -1,7 +1,0 @@
-:root {
-  --color__red: #ff0000;
-}
-
-div {
-  background: var(--color__red);
-}
