@@ -1,6 +1,65 @@
 :root {
   /* colors */
-  /* --color__red: #ff0000; */
+
+  /* colors - primary blue */
+  --color__blue--900: #003e6b;
+  --color__blue--800: #0a558c;
+  --color__blue--700: #0f609b;
+  --color__blue--600: #186faf;
+  --color__blue--500: #2680c2;
+  --color__blue--400: #50a9e8;
+  --color__blue--300: #7ac2f6;
+  --color__blue--200: #b6e0fe;
+  --color__blue--100: #dceefb;
+  --color__blue: var(--color__blue--500);
+
+  /* colors - primary yellow */
+  --color__yellow--900: #8d2b0b;
+  --color__yellow--800: #b44d12;
+  --color__yellow--700: #cb6e17;
+  --color__yellow--600: #de911d;
+  --color__yellow--500: #f0b429;
+  --color__yellow--400: #f7c948;
+  --color__yellow--300: #fadb5f;
+  --color__yellow--200: #fce588;
+  --color__yellow--100: #fff3c4;
+  --color__yellow: var(--color__yellow--500);
+
+  /* colors - neutral */
+  --color__neutral--900: #102a43;
+  --color__neutral--800: #2e4962;
+  --color__neutral--700: #486581;
+  --color__neutral--600: #627d98;
+  --color__neutral--500: #829ab1;
+  --color__neutral--400: #9fb3c8;
+  --color__neutral--300: #bcccdc;
+  --color__neutral--200: #d9e2ec;
+  --color__neutral--100: #f0f4f8;
+  --color__neutral: var(--color__neutral--500);
+
+  /* colors - secondary cyan */
+  --color__secondary-cyan--900: #102a43;
+  --color__secondary-cyan--800: #2e4962;
+  --color__secondary-cyan--700: #486581;
+  --color__secondary-cyan--600: #627d98;
+  --color__secondary-cyan--500: #829ab1;
+  --color__secondary-cyan--400: #9fb3c8;
+  --color__secondary-cyan--300: #bcccdc;
+  --color__secondary-cyan--200: #d9e2ec;
+  --color__secondary-cyan--100: #f0f4f8;
+  --color__secondary-cyan: var(--color__secondary-cyan--500);
+
+  /* colors - secondary red */
+  --color__secondary-red--900: #610404;
+  --color__secondary-red--800: #911111;
+  --color__secondary-red--700: #a61b1b;
+  --color__secondary-red--600: #ba2525;
+  --color__secondary-red--500: #d64545;
+  --color__secondary-red--400: #e66a6a;
+  --color__secondary-red--300: #f29b9b;
+  --color__secondary-red--200: #facdcd;
+  --color__secondary-red--100: #ffeeee;
+  --color__secondary-red: var(--color__secondary-red--500);
 
   /* fonts */
   --fontFamily__heading: "Karla", -apple-system, Roboto, sans-serif;

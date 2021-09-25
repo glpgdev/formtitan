@@ -7,7 +7,8 @@ h5 {
   font-family: var(--fontFamily__heading);
   font-weight: 700;
   line-height: 1.3;
-  letter-spacing: -0.052em;
+  letter-spacing: -0.05em;
+  color: var(--color__neutral--900);
 }
 
 h1 {
