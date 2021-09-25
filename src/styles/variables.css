@@ -38,15 +38,15 @@
   --color__neutral: var(--color__neutral--500);
 
   /* colors - secondary cyan */
-  --color__secondary-cyan--900: #102a43;
-  --color__secondary-cyan--800: #2e4962;
-  --color__secondary-cyan--700: #486581;
-  --color__secondary-cyan--600: #627d98;
-  --color__secondary-cyan--500: #829ab1;
-  --color__secondary-cyan--400: #9fb3c8;
-  --color__secondary-cyan--300: #bcccdc;
-  --color__secondary-cyan--200: #d9e2ec;
-  --color__secondary-cyan--100: #f0f4f8;
+  --color__secondary-cyan--900: #044e54;
+  --color__secondary-cyan--800: #086d76;
+  --color__secondary-cyan--700: #14919b;
+  --color__secondary-cyan--600: #2cb1bc;
+  --color__secondary-cyan--500: #38bec9;
+  --color__secondary-cyan--400: #54d1db;
+  --color__secondary-cyan--300: #87eaf2;
+  --color__secondary-cyan--200: #bef8fd;
+  --color__secondary-cyan--100: #e0fcff;
   --color__secondary-cyan: var(--color__secondary-cyan--500);
 
   /* colors - secondary red */
