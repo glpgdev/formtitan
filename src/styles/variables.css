@@ -1,8 +1,12 @@
 :root {
   /* colors */
-  --color__red: #ff0000;
+  /* --color__red: #ff0000; */
 
-  /* typography */
+  /* fonts */
+  --fontFamily__heading: "Karla", -apple-system, Roboto, sans-serif;
+  --fontFamily__base: "Karla", -apple-system, Roboto, sans-serif;
+
+  /* type scale */
   --fontSize__h0: 3.815rem;
   --fontSize__h1: 3.052rem;
   --fontSize__h2: 2.441rem;
