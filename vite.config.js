@@ -5,7 +5,7 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/styles/style.css"),
-      name: "MyCssLib",
+      name: "productionCss",
     },
   },
 });
