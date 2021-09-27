@@ -4,7 +4,7 @@
 
 `GLPG Reset` is a package that contains base global styles for GLPG projects such as a CSS reset, typography, colors, and other styles that aren't typically scoped.
 
-You can reference GLPG Style Guidelines [here](https://www.greatlakespsychologygroup.com/).
+You can reference GLPG Style Guidelines [here](https://style.glpg.dev/).
 
 ### Install
 
