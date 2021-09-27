@@ -1,6 +1,4 @@
 :root {
-  /* colors */
-
   /* colors - primary blue */
   --color__blue--900: #003e6b;
   --color__blue--800: #0a558c;
@@ -31,9 +29,9 @@
   --color__neutral--700: #486581;
   --color__neutral--600: #627d98;
   --color__neutral--500: #829ab1;
-  --color__neutral--400: #9fb3c8;
-  --color__neutral--300: #bcccdc;
-  --color__neutral--200: #d9e2ec;
+  --color__neutral--400: #b7c5d2;
+  --color__neutral--300: #d3dde7;
+  --color__neutral--200: #e3eaf1;
   --color__neutral--100: #f0f4f8;
   --color__neutral: var(--color__neutral--500);
 
