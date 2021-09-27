@@ -1,6 +1,6 @@
 # GLPG Reset
 
-<img src="https://glpg-public-assets.s3.us-east-2.amazonaws.com/glpg-logo.png" alt="Great Lakes Psychology Group" width="200" style="margin-bottom: 30px;"/>
+<img src="https://glpg-public-assets.s3.us-east-2.amazonaws.com/glpg-logo-reset.svg" alt="Great Lakes Psychology Group Reset Logo" width="400" style="margin: 30px 0;"/>
 
 `GLPG Reset` is a package that contains base global styles for GLPG projects such as a CSS reset, typography, colors, and other styles that aren't typically scoped.
 
