@@ -14,7 +14,7 @@ You can reference GLPG Style Guidelines [here](https://style.glpg.dev/).
 
 `import "glpg-reset"`
 
-Because this is a true reset with added global styles, this should be called before other styles so that when compiled, it comes first.
+This should always be called **before** other styles so that when compiled, it comes first.
 
 ### Dependencies
 
