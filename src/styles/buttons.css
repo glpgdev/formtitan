@@ -1,2 +1,17 @@
-button {
+button,
+a.button,
+input[type="submit"] {
+  background-color: var(--color__yellow--600);
+  border: 2px solid var(--color__yellow--600);
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--fontFamily__base);
+  font-size: var(--fontSize__base);
+  font-weight: 700;
+  line-height: 1;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
 }
