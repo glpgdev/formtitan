@@ -73,4 +73,8 @@
   --fontSize__base: 1rem;
   --fontSize__base--lg: 1.167rem;
   --fontSize__base--sm: 0.889rem;
+
+  /* line heights */
+  --lineHeight__heading: 1.3;
+  --lineHeight__base: 1.75;
 }
