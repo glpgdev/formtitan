@@ -1,2 +1,11 @@
-input {
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  font-size: var(--fontSize__base--sm);
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+  width: 100%;
 }
