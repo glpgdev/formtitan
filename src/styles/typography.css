@@ -37,10 +37,12 @@ p {
 }
 
 .subheader {
-  margin-bottom: 0.889rem;
+  margin-bottom: 1rem;
   font-weight: 700;
   font-size: var(--fontSize__base);
   letter-spacing: 0.25em;
   text-transform: uppercase;
   display: block;
+  /* margin-bottom: 0.889rem; */
+  /* letter-spacing: 3px; */
 }
