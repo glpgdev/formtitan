@@ -1,5 +1,6 @@
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"] {
   border: none;
   border-radius: 6px;
   background: var(--color__neutral--100);
