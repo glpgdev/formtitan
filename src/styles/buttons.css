@@ -15,3 +15,11 @@ input[type="submit"] {
   text-align: center;
   text-decoration: none;
 }
+
+button.button--secondary,
+a.button--secondary,
+input[type="submit"].button--secondary {
+  background-color: transparent;
+  border: 2px solid var(--color__yellow--600);
+  color: var(--color__yellow--600);
+}
