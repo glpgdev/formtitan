@@ -3,6 +3,12 @@ html {
   box-sizing: border-box;
 }
 
+@media (max-width: 999px) {
+  html {
+    font-size: 100%;
+  }
+}
+
 *,
 *:before,
 *:after {
