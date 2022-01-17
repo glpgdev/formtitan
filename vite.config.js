@@ -4,7 +4,7 @@ import path from "path";
 module.exports = defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/styles/style.css"),
+      entry: path.resolve(__dirname, "src/styles/style.scss"),
       name: "productionCss",
     },
   },
