@@ -2,8 +2,8 @@ button,
 .button,
 a.button,
 input[type="submit"] {
-  background-color: var(--color__yellow--600);
-  border: 2px solid var(--color__yellow--600);
+  background-color: var(--color__yellow);
+  border: 2px solid var(--color__yellow);
   border-radius: 7px;
   color: #fff;
   cursor: pointer;
@@ -17,8 +17,8 @@ input[type="submit"] {
   text-decoration: none;
 
   &.button--secondary {
-    background-color: var(--color__yellow--400);
-    border: 2px solid var(--color__yellow--400);
-    color: var(--color__yellow--600);
+    background-color: transparent;
+    border: 2px solid var(--color__yellow);
+    color: var(--color__yellow);
   }
 }
