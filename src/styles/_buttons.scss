@@ -1,7 +1,6 @@
 button,
 .button,
-a.button,
-input[type="submit"] {
+a.button {
   background-color: var(--color__blue);
   font-size: var(--fontSize__base);
   color: var(--color__blue--50);
