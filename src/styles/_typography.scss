@@ -47,4 +47,9 @@ p {
   color: var(--color__yellow--900);
   padding: 5px 10px;
   border-radius: 11px;
+
+  &.blue {
+    background-color: var(--color__blue--100);
+    color: var(--color__blue--900);
+  }
 }
