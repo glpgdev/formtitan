@@ -1,30 +1,7 @@
-// button,
-// .button,
-// a.button,
-// input[type="submit"] {
-//   background-color: var(--color__yellow);
-//   border: 2px solid var(--color__yellow);
-//   border-radius: 7px;
-//   color: #fff;
-//   cursor: pointer;
-//   display: inline-block;
-//   font-family: var(--fontFamily__base);
-//   font-size: var(--fontSize__base);
-//   font-weight: 700;
-//   line-height: 1;
-//   padding: 13px 30px;
-//   text-align: center;
-//   text-decoration: none;
-
-//   &.button--secondary {
-//     background-color: transparent;
-//     border: 2px solid var(--color__yellow);
-//     color: var(--color__yellow);
-//   }
-// }
-
-.btn,
-a.btn {
+button,
+.button,
+a.button,
+input[type="submit"] {
   background-color: var(--color__blue);
   font-size: var(--fontSize__base);
   color: var(--color__blue--50);
@@ -42,7 +19,7 @@ a.btn {
   }
 
   &--secondary {
-    background-color: transparent;
+    background-color: #fff;
     border-color: var(--color__neutral--200);
     color: var(--color__neutral--900);
 
