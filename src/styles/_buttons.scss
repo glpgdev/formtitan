@@ -22,3 +22,31 @@
 //     color: var(--color__yellow);
 //   }
 // }
+
+.btn {
+  background-color: var(--color__blue);
+  font-size: var(--fontSize__base);
+  color: var(--color__blue--50);
+  border: 2px solid var(--color__blue);
+  font-weight: 600;
+  border-radius: 6px;
+  line-height: 1;
+  padding: 16px 28px;
+  display: inline-block;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+  &:hover:not(&--secondary) {
+    background: var(--color__blue--800);
+  }
+
+  &--secondary {
+    background-color: transparent;
+    border-color: var(--color__neutral--200);
+    color: var(--color__neutral--900);
+
+    &:hover {
+      border-color: var(--color__neutral--900);
+    }
+  }
+}
