@@ -1,6 +1,6 @@
 {
   "name": "glpg-reset",
-  "version": "0.17.7",
+  "version": "0.17.8",
   "description": "Base reset and styles for GLPG",
   "scripts": {
     "dev": "vite",
