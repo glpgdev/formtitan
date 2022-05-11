@@ -11,6 +11,7 @@ a.button {
   padding: 16px 28px;
   display: inline-block;
   cursor: pointer;
+  text-align: center;
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
   &:hover:not(&--secondary) {
