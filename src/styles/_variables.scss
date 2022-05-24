@@ -66,16 +66,17 @@
   --fontFamily__base: "Source Sans Pro", -apple-system, Roboto, sans-serif;
 
   /* type scale */
-  --fontSize__h0: 3.815rem;
-  --fontSize__h1: 3.052rem;
-  --fontSize__h2: 2.441rem;
-  --fontSize__h3: 1.953rem;
-  --fontSize__h4: 1.563rem;
-  --fontSize__h5: 1.25rem;
+  --fontSize__h0: 3.583rem;
+  --fontSize__h1: 2.986rem;
+  --fontSize__h2: 2.488rem;
+  --fontSize__h3: 2.074rem;
+  --fontSize__h4: 1.728rem;
+  --fontSize__h5: 1.44rem;
   --fontSize__base: 1rem;
-  --fontSize__base--lg: 1.167rem;
-  --fontSize__base--sm: 0.8rem;
-  --fontSize__base--xs: 0.64rem;
+  --fontSize__base--lg: 1.2rem;
+  --fontSize__base--sm: 0.833rem;
+  --fontSize__base--xs: 0.694rem;
+  --fontSize__subheader: var(--fontSize__base--xs);
 
   /* line heights */
   --lineHeight__heading: 1.3;
