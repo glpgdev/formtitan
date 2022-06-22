@@ -15,7 +15,7 @@ a.button {
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
   &:hover:not(&--secondary) {
-    background: var(--color__blue--800);
+    background-color: var(--color__blue--800);
   }
 
   &--secondary {
