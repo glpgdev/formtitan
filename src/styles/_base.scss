@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  color: var(--color__neutral--800);
+  color: var(--color__neutral--800) !important;
   line-height: 1.75;
   font-family: var(--fontFamily__base);
   font-weight: 400;

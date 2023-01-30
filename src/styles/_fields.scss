@@ -45,8 +45,9 @@ div.ft--theme--FormField--fileupload {
       border-radius: 10px !important;
     }
 
-    .ft--label {
+    label.ft--label {
       font-weight: 600 !important;
+      font-size: var(--fontSize__base--sm) !important;
       color: var(--color__neutral--900) !important;
     }
   }
@@ -60,5 +61,9 @@ div.ft--theme--FormField--fileupload {
     text-align: center !important;
     font-family: var(--fontFamily__base) !important;
     color: var(--color__neutral--600);
+  }
+
+  // attached file(s)
+  &.ftsuccess {
   }
 }

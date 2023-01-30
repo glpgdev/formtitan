@@ -3,6 +3,7 @@ div[data-type="Button"] {
   min-width: 180px !important;
 
   button {
+    font-family: var(--fontFamily__base) !important;
     font-size: var(--fontSize__base) !important;
     font-weight: 600 !important;
     border-radius: 6px !important;
