@@ -1,26 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.ft--theme--Typography--title,
+.ft--theme--Typography--h1,
+.ft--theme--Typography--subhead {
   margin: 3rem 0 1.38rem;
   font-family: var(--fontFamily__heading);
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3;
-  letter-spacing: -0.05em;
   color: var(--color__neutral--900);
-
-  .subheader-temp {
-    letter-spacing: 0;
-  }
 }
 
-h1 {
+h1,
+.ft--theme--Typography--title {
   margin-top: 0;
   font-size: var(--fontSize__h1);
 }
 
-h2 {
+h2,
+.ft--theme--Typography--h1 {
   font-size: var(--fontSize__h2);
 }
 
@@ -28,7 +30,8 @@ h3 {
   font-size: var(--fontSize__h3);
 }
 
-h4 {
+h4,
+.ft--theme--Typography--subhead {
   font-size: var(--fontSize__h4);
 }
 
@@ -38,22 +41,4 @@ h5 {
 
 p {
   margin-bottom: 1rem;
-}
-
-.subheader-temp {
-  margin-bottom: 1rem;
-  font-weight: 600;
-  font-size: var(--fontSize__base--xs);
-  text-transform: uppercase;
-  display: inline-block;
-  line-height: 1;
-  background-color: var(--color__yellow--100);
-  color: var(--color__yellow--900);
-  padding: 5px 10px;
-  border-radius: 11px;
-
-  &.blue {
-    background-color: var(--color__blue--50);
-    color: var(--color__blue--900);
-  }
 }

@@ -8,8 +8,8 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.48.0",
-    "vite": "^2.5.4"
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
   },
   "main": "dist/style.css",
   "files": [

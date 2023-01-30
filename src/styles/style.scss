@@ -1,9 +1,12 @@
-@import "./normalize.scss";
-@import "./variables.scss";
-@import "./base.scss";
-@import "./typography.scss";
-@import "./images.scss";
-@import "./links.scss";
-@import "./lists.scss";
-@import "./fields.scss";
-@import "./buttons.scss";
+@import "./normalize";
+@import "./variables";
+@import "./base";
+@import "./typography";
+@import "./images";
+@import "./links";
+@import "./lists";
+@import "./fields";
+@import "./buttons";
+
+// forms
+@import "./forms/submit-insurance";
