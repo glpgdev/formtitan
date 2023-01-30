@@ -47,6 +47,15 @@ div[data-type="Button"] {
         border-radius: 6px !important;
       }
     }
+
+    &:hover,
+    &:focus {
+      span {
+        font-family: var(--fontFamily__base) !important;
+        font-size: var(--fontSize__base) !important;
+        font-weight: 600 !important;
+      }
+    }
   }
 }
 // &--secondary {
