@@ -20,10 +20,13 @@ div[data-type="Button"] {
 
       &:hover {
         background-color: var(--color__blue--800) !important;
+        border-color: var(--color__blue--800) !important;
       }
 
       &:focus {
         background-color: var(--color__blue--900) !important;
+        border-color: var(--color__blue--900) !important;
+        border-radius: 6px !important;
       }
     }
 
@@ -33,11 +36,14 @@ div[data-type="Button"] {
       border: 2px solid var(--color__blue--100) !important;
 
       &:hover {
-        background-color: var(--color__blue--800) !important;
+        background-color: var(--color__blue--200) !important;
+        border-color: var(--color__blue--200) !important;
       }
 
       &:focus {
-        background-color: var(--color__blue--900) !important;
+        background-color: var(--color__blue--300) !important;
+        border-color: var(--color__blue--300) !important;
+        border-radius: 6px !important;
       }
     }
   }
