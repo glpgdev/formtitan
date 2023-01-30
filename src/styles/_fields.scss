@@ -42,5 +42,21 @@ div.ft--theme--FormField--fileupload {
       border-color: var(--color__neutral--200) !important;
       border-radius: 10px !important;
     }
+
+    .ft--label {
+      font-weight: 600 !important;
+      color: var(--color__neutral--900) !important;
+    }
+  }
+
+  .ft--FormField--dropzone {
+    width: 100% !important;
+  }
+
+  .ft--theme--FormField--dropzoneInfo {
+    width: 100% !important;
+    text-align: center !important;
+    font-family: var(--fontFamily__base) !important;
+    color: var(--color__neutral--600);
   }
 }
