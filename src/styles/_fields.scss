@@ -23,8 +23,10 @@ div.ft--theme--FormField-elRoot {
   }
 }
 
-label.ft--label {
+label.ft--label,
+label.ft--label.ft--shrink {
   font-weight: 600 !important;
+  font-size: var(--fontSize__base--sm) !important;
   color: var(--color__neutral--900) !important;
 
   & ~ p.ft-helper-txt {
@@ -45,10 +47,8 @@ div.ft--theme--FormField--fileupload {
       border-radius: 10px !important;
     }
 
-    label.ft--label,
-    label.ft--label.ft--shrink {
+    .ft--label {
       font-weight: 600 !important;
-      font-size: var(--fontSize__base--sm) !important;
       color: var(--color__neutral--900) !important;
     }
   }
