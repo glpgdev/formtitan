@@ -1,3 +1,9 @@
+// change default width of inputs
+.ft--theme--FormField--text {
+  width: 100% !important;
+}
+
+// hide empty divs
 .stack-element-separator-row {
   display: none !important;
 }
