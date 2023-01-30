@@ -1,12 +1,11 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
   // hide validation borders
-  .ft--theme--FormField--text,
-  .ft--theme--FormField--select {
-    & > div {
-      &:before,
-      &:after {
-        display: none !important;
-      }
+  .ft--theme--FormField--text > div,
+  .ft--theme--FormField--text > div,
+  .ft--theme--FormField--select label + div {
+    &:before,
+    &:after {
+      display: none !important;
     }
   }
 
