@@ -1,4 +1,4 @@
-div.ft--theme--Button--primary:not([data-type="Button"]) {
+.ft--theme--Button--primary:not([data-type="Button"]) {
   background-color: var(--color__blue) !important;
   font-size: var(--fontSize__base) !important;
   color: var(--color__blue--50) !important;
