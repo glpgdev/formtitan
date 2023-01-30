@@ -1,8 +1,5 @@
-.ft--theme--Button--primary:not([data-type="Button"]) {
-  background-color: var(--color__blue) !important;
+div[data-type="Button"] button {
   font-size: var(--fontSize__base) !important;
-  color: var(--color__blue--50) !important;
-  border: 2px solid var(--color__blue) !important;
   font-weight: 600 !important;
   border-radius: 6px !important;
   line-height: 1 !important;
@@ -12,21 +9,40 @@
   text-align: center !important;
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
 
-  &:hover {
-    background-color: var(--color__blue--800) !important;
+  &.ft--theme--Button--primary {
+    background-color: var(--color__blue) !important;
+    color: var(--color__blue--50) !important;
+    border: 2px solid var(--color__blue) !important;
+
+    &:hover {
+      background-color: var(--color__blue--800) !important;
+    }
+
+    &:focus {
+      background-color: var(--color__blue--900) !important;
+    }
   }
 
-  &:focus {
-    background-color: var(--color__blue--900) !important;
+  &.ft--theme--Button--secondary {
+    background-color: var(--color__blue--50) !important;
+    color: var(--color__blue) !important;
+    border: 2px solid var(--color__blue--50) !important;
+
+    &:hover {
+      background-color: var(--color__blue--800) !important;
+    }
+
+    &:focus {
+      background-color: var(--color__blue--900) !important;
+    }
   }
-
-  // &--secondary {
-  //   background-color: #fff;
-  //   border-color: var(--color__neutral--200);
-  //   color: var(--color__neutral--900);
-
-  //   &:hover {
-  //     border-color: var(--color__neutral--900);
-  //   }
-  // }
 }
+// &--secondary {
+//   background-color: #fff;
+//   border-color: var(--color__neutral--200);
+//   color: var(--color__neutral--900);
+
+//   &:hover {
+//     border-color: var(--color__neutral--900);
+//   }
+// }
