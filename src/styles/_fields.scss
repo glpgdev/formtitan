@@ -28,6 +28,8 @@ label.ft--label.ft--shrink {
   font-weight: 600 !important;
   font-size: var(--fontSize__base--sm) !important;
   color: var(--color__neutral--900) !important;
+  font-family: var(--fontFamily__base) !important;
+  color: red !important;
 
   & ~ p.ft-helper-txt {
     &.Mui-error {
