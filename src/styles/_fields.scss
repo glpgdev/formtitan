@@ -41,27 +41,27 @@ input[type="tel"] {
     right: 20px;
   }
 
-  select {
-    appearance: none;
-    background: none;
-    border: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 20px;
-    outline: 0;
-    cursor: pointer;
-    z-index: 1;
+  // select {
+  //   appearance: none;
+  //   background: none;
+  //   border: none;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   padding: 0 20px;
+  //   outline: 0;
+  //   cursor: pointer;
+  //   z-index: 1;
 
-    &:invalid,
-    &[disabled],
-    option:disabled {
-      color: #828283;
-    }
-  }
+  //   &:invalid,
+  //   &[disabled],
+  //   option:disabled {
+  //     color: #828283;
+  //   }
+  // }
 }
 
 label.ft--label {
