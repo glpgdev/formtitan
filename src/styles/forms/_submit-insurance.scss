@@ -65,7 +65,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     flex-direction: row;
     gap: 5px;
 
-    div:last-of-type {
+    div[data-type="Button"]:last-of-type {
       margin-left: auto;
     }
   }

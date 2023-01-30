@@ -1,39 +1,44 @@
-div[data-type="Button"] button {
-  font-size: var(--fontSize__base) !important;
-  font-weight: 600 !important;
-  border-radius: 6px !important;
-  line-height: 1 !important;
-  padding: 16px 28px !important;
-  display: inline-block !important;
-  cursor: pointer !important;
-  text-align: center !important;
-  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
+div[data-type="Button"] {
+  width: auto !important;
+  min-width: 180px !important;
 
-  &.ft--theme--Button--primary {
-    background-color: var(--color__blue) !important;
-    color: var(--color__blue--50) !important;
-    border: 2px solid var(--color__blue) !important;
+  button {
+    font-size: var(--fontSize__base) !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    line-height: 1 !important;
+    padding: 16px 28px !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
 
-    &:hover {
-      background-color: var(--color__blue--800) !important;
+    &.ft--theme--Button--primary {
+      background-color: var(--color__blue) !important;
+      color: var(--color__blue--50) !important;
+      border: 2px solid var(--color__blue) !important;
+
+      &:hover {
+        background-color: var(--color__blue--800) !important;
+      }
+
+      &:focus {
+        background-color: var(--color__blue--900) !important;
+      }
     }
 
-    &:focus {
-      background-color: var(--color__blue--900) !important;
-    }
-  }
+    &.ft--theme--Button--secondary {
+      background-color: var(--color__blue--100) !important;
+      color: var(--color__blue--900) !important;
+      border: 2px solid var(--color__blue--100) !important;
 
-  &.ft--theme--Button--secondary {
-    background-color: var(--color__blue--50) !important;
-    color: var(--color__blue) !important;
-    border: 2px solid var(--color__blue--50) !important;
+      &:hover {
+        background-color: var(--color__blue--800) !important;
+      }
 
-    &:hover {
-      background-color: var(--color__blue--800) !important;
-    }
-
-    &:focus {
-      background-color: var(--color__blue--900) !important;
+      &:focus {
+        background-color: var(--color__blue--900) !important;
+      }
     }
   }
 }
