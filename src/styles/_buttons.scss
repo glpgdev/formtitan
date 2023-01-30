@@ -1,7 +1,7 @@
 button,
 .button,
 a.button,
-div.ft--theme--Button--primary {
+div.ft--theme--Button--primary:not([data-type="Button"]) {
   background-color: var(--color__blue) !important;
   font-size: var(--fontSize__base) !important;
   color: var(--color__blue--50) !important;
@@ -15,17 +15,17 @@ div.ft--theme--Button--primary {
   text-align: center !important;
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
 
-  &:hover:not(&--secondary) {
-    background-color: var(--color__blue--800) !important;
-  }
+  // &:hover:not(&--secondary) {
+  //   background-color: var(--color__blue--800) !important;
+  // }
 
-  &--secondary {
-    background-color: #fff;
-    border-color: var(--color__neutral--200);
-    color: var(--color__neutral--900);
+  // &--secondary {
+  //   background-color: #fff;
+  //   border-color: var(--color__neutral--200);
+  //   color: var(--color__neutral--900);
 
-    &:hover {
-      border-color: var(--color__neutral--900);
-    }
-  }
+  //   &:hover {
+  //     border-color: var(--color__neutral--900);
+  //   }
+  // }
 }
