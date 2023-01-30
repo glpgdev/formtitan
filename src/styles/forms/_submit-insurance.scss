@@ -62,11 +62,8 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
   // button group
   div[data-row="row86"] {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     gap: 5px;
-
-    > div[data-type="Button"]:last-of-type {
-      margin-left: auto;
-    }
   }
 }
