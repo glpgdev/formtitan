@@ -5,9 +5,9 @@ h2,
 h3,
 h4,
 h5,
-.ft--theme--Typography--title:not(div[data-type="Title"]),
-.ft--theme--Typography--h1:not(div[data-type="Heading"]),
-.ft--theme--Typography--subhead:not(div[data-type="Subhead"]) {
+div.ft--theme--Typography--title:not([data-type="Title"]),
+div.ft--theme--Typography--h1:not([data-type="Heading"]),
+div.ft--theme--Typography--subhead:not([data-type="Subhead"]) {
   margin: 3rem 0 1.38rem !important;
   font-family: var(--fontFamily__heading) !important;
   font-weight: 700 !important;
@@ -16,13 +16,13 @@ h5,
 }
 
 h1,
-.ft--theme--Typography--title:not(div[data-type="Title"]) {
+div.ft--theme--Typography--title:not([data-type="Title"]) {
   margin-top: 0 !important;
   font-size: var(--fontSize__h1) !important;
 }
 
 h2,
-.ft--theme--Typography--h1:not(div[data-type="Heading"]) {
+div.ft--theme--Typography--h1:not([data-type="Heading"]) {
   font-size: var(--fontSize__h2) !important;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 h4,
-.ft--theme--Typography--subhead:not(div[data-type="Subhead"]) {
+div.ft--theme--Typography--subhead:not([data-type="Subhead"]) {
   font-size: var(--fontSize__h4) !important;
 }
 
