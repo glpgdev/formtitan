@@ -1,3 +1,12 @@
+// hide margin and padding around page
+.ft--s1--stripContainerRoot {
+  margin: 0 !important;
+}
+
+.ft--theme--Stack--root {
+  padding: 0 !important;
+}
+
 // change default width of inputs
 .ft--theme--FormField--text,
 .ft--theme--FormField--select {
