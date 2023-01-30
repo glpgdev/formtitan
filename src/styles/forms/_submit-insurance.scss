@@ -66,5 +66,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     justify-content: space-between;
     flex-direction: row;
     gap: 5px;
+    margin-top: 2rem !important;
+
+    div[data-type="Button"]:last-child {
+      margin-left: auto;
+    }
   }
 }
