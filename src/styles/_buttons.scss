@@ -45,10 +45,12 @@ div[data-type="Button"] {
         background-color: var(--color__blue--300) !important;
         border-color: var(--color__blue--300) !important;
         border-radius: 6px !important;
+        // titan removes padding from focused secondary buttons
+        padding: 16px 28px !important;
       }
     }
 
-    &:hover,
+    // titan changes font on focused buttons
     &:focus {
       span {
         font-family: var(--fontFamily__base) !important;
