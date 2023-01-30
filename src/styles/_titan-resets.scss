@@ -8,6 +8,8 @@
   display: none !important;
 }
 
+div[data-type="Title"],
+div[data-type="Heading"],
 div[data-type="Subhead"] {
   margin: 0 !important;
 }
