@@ -1,3 +1,8 @@
+// remove top from absolute form
+div[data-type="Form"] {
+  top: 0 !important;
+}
+
 // hide margin and padding around page
 .ft--s1--stripContainerRoot {
   margin: 0 !important;
