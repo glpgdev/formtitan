@@ -1,5 +1,6 @@
 // change default width of inputs
-.ft--theme--FormField--text {
+.ft--theme--FormField--text,
+.ft--theme--FormField--select {
   width: 100% !important;
 }
 
