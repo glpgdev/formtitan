@@ -17,4 +17,28 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
       grid-column: span 2;
     }
   }
+
+  // secondary insurance
+  div#e45 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    div[data-type="Heading"],
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+    }
+  }
+
+  // tertiary insurance
+  div#e55 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    div[data-type="Heading"],
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+    }
+  }
 }
