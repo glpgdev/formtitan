@@ -58,4 +58,15 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
       grid-column: span 2;
     }
   }
+
+  // button group
+  div[data-row="86"] {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    div:last-of-type {
+      margin-left: auto;
+    }
+  }
 }
