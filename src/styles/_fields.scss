@@ -1,6 +1,4 @@
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
+div.ft--theme--FormField--text:not([data-type="Input Fields"]) {
   border: none;
   border-radius: 6px;
   background: var(--color__neutral--100);
