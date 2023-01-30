@@ -16,6 +16,11 @@ div.ft--theme--FormField-elRoot {
   &[aria-invalid="true"] {
     border: 1px solid var(--color__error--500);
   }
+
+  div[class^="MuiAutocomplete-endAdornment"] {
+    top: 0 !important;
+    right: 10px !important;
+  }
 }
 
 label.ft--label {
