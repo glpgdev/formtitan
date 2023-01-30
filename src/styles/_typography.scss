@@ -8,37 +8,37 @@ h5,
 .ft--theme--Typography--title,
 .ft--theme--Typography--h1,
 .ft--theme--Typography--subhead {
-  margin: 3rem 0 1.38rem;
-  font-family: var(--fontFamily__heading);
-  font-weight: 700;
-  line-height: 1.3;
-  color: var(--color__neutral--900);
+  margin: 3rem 0 1.38rem !important;
+  font-family: var(--fontFamily__heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  color: var(--color__neutral--900) !important;
 }
 
 h1,
 .ft--theme--Typography--title {
-  margin-top: 0;
-  font-size: var(--fontSize__h1);
+  margin-top: 0 !important;
+  font-size: var(--fontSize__h1) !important;
 }
 
 h2,
 .ft--theme--Typography--h1 {
-  font-size: var(--fontSize__h2);
+  font-size: var(--fontSize__h2) !important;
 }
 
 h3 {
-  font-size: var(--fontSize__h3);
+  font-size: var(--fontSize__h3) !important;
 }
 
 h4,
 .ft--theme--Typography--subhead {
-  font-size: var(--fontSize__h4);
+  font-size: var(--fontSize__h4) !important;
 }
 
 h5 {
-  font-size: var(--fontSize__h5);
+  font-size: var(--fontSize__h5) !important;
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
