@@ -15,9 +15,13 @@ div.ft--theme--Button--primary:not([data-type="Button"]) {
   text-align: center !important;
   transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out !important;
 
-  // &:hover:not(&--secondary) {
-  //   background-color: var(--color__blue--800) !important;
-  // }
+  &:hover {
+    background-color: var(--color__blue--800) !important;
+  }
+
+  &:focus {
+    background-color: var(--color__blue--900) !important;
+  }
 
   // &--secondary {
   //   background-color: #fff;
