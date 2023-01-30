@@ -1,7 +1,20 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
+  // top section
   div#e10 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    gap: 20px;
+  }
+
+  // primary insurance
+  div#e36 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    div[data-type="Heading"],
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+    }
   }
 }
