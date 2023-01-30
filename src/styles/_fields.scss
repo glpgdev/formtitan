@@ -33,3 +33,14 @@ label.ft--label {
     }
   }
 }
+
+div.ft--theme--FormField--fileupload {
+  > div {
+    background: none;
+
+    > div {
+      border-color: var(--color__neutral--200);
+      border-radius: 10px;
+    }
+  }
+}
