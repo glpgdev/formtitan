@@ -1,6 +1,7 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
-  // put all radios (insurance type) on own line
-  .ft--theme--FormField--radio {
+  // put all radios (insurance type) and paragraphs on own line
+  .ft--theme--FormField--radio,
+  div[data-type="Paragraph"] {
     grid-column: span 2;
   }
 
