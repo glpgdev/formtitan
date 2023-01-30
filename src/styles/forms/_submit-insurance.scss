@@ -1,4 +1,9 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
+  // put all radios (insurance type) on own line
+  .ft--theme--FormField--radio {
+    grid-column: span 2;
+  }
+
   // top section
   div#e10 {
     display: grid;
