@@ -36,11 +36,11 @@ label.ft--label {
 
 div.ft--theme--FormField--fileupload {
   > div {
-    background: none;
+    background: none !important;
 
     > div {
-      border-color: var(--color__neutral--200);
-      border-radius: 10px;
+      border-color: var(--color__neutral--200) !important;
+      border-radius: 10px !important;
     }
   }
 }
