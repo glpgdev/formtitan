@@ -29,6 +29,12 @@ div[data-type="Button"] {
         border-color: var(--color__blue--900) !important;
         border-radius: 6px !important;
       }
+
+      &:active {
+        background-color: var(--color__blue--900) !important;
+        border-color: var(--color__blue--900) !important;
+        border-radius: 6px !important;
+      }
     }
 
     &.ft--theme--Button--secondary {
@@ -47,6 +53,12 @@ div[data-type="Button"] {
         border-radius: 6px !important;
         // titan removes padding from focused secondary buttons
         padding: 16px 28px !important;
+      }
+
+      &:active {
+        background-color: var(--color__blue--300) !important;
+        border-color: var(--color__blue--300) !important;
+        border-radius: 6px !important;
       }
     }
 
