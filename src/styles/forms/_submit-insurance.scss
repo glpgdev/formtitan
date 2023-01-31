@@ -72,13 +72,13 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
 
   // button group
   div[data-row="row86"] {
-    display: flex !important;
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 5px;
     margin-top: 2rem !important;
 
-    > div[data-type="Button"]:nth-of-type(3) {
+    #ft--pos--e101 {
       margin-left: auto !important;
     }
   }
@@ -96,12 +96,12 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
       cursor: pointer;
 
       path {
-        fill: var(--color__red--200);
+        fill: var(--color__red--200) !important;
       }
 
       &:hover {
         path {
-          fill: var(--color__red--500);
+          fill: var(--color__red--500) !important;
         }
       }
     }
