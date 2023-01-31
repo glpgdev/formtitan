@@ -42,7 +42,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     position: relative;
-    padding-left: 30px;
+    padding-left: 30px !important;
 
     div[data-type="Heading"],
     div[data-type="Subhead"] {
@@ -56,7 +56,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     position: relative;
-    padding-left: 30px;
+    padding-left: 30px !important;
 
     div[data-type="Heading"],
     div[data-type="Subhead"] {
@@ -81,7 +81,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
   div#e113,
   div#e114 {
     position: absolute !important;
-    top: 0;
+    top: 60px;
     left: 0;
 
     svg {
