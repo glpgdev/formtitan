@@ -1,3 +1,12 @@
+// override titan button styles
+.ft--theme--Button--primary:active,
+.ft--theme--Button--secondary:active {
+  border-radius: 6px !important;
+  font-family: var(--fontFamily__base) !important;
+  font-size: var(--fontSize__base) !important;
+  font-weight: 600 !important;
+}
+
 div[data-type="Button"] {
   width: fit-content !important;
   min-width: 180px !important;
