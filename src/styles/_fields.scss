@@ -78,7 +78,7 @@ div.ft--theme--FormField--fileupload {
     grid-template-areas:
       ". . ."
       ". icon ."
-      ". label .";
+      "label label label";
     padding: 3rem 2rem;
   }
 
