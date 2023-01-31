@@ -41,6 +41,8 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    position: relative;
+    padding-left: 30px;
 
     div[data-type="Heading"],
     div[data-type="Subhead"] {
@@ -53,6 +55,8 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    position: relative;
+    padding-left: 30px;
 
     div[data-type="Heading"],
     div[data-type="Subhead"] {
@@ -70,6 +74,19 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
 
     div[data-type="Button"]:last-of-type {
       margin-left: auto !important;
+    }
+  }
+
+  // delete buttons for additional forms
+  div#e113,
+  div#e114 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    svg {
+      height: 32px;
+      width: 32px;
     }
   }
 }
