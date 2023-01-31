@@ -21,6 +21,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   // primary insurance
