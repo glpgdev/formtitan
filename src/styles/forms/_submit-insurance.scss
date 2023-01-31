@@ -121,6 +121,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     @media (max-width: 500px) {
       justify-content: center;
       flex-direction: column;
+
+      div[data-type="Button"] {
+        width: 100% !important;
+      }
     }
 
     .ft--pos--e101 {
