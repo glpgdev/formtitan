@@ -1,6 +1,6 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
   // fix titan mobile crap
-  @media (max-width: 1199px) {
+  @media (max-width: 991px) {
     #s1,
     .ft--dir--row {
       max-width: 100% !important;
@@ -30,7 +30,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
       grid-template-columns: 1fr;
     }
   }
