@@ -186,4 +186,13 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
       }
     }
   }
+
+  // override titan button styles
+  #e101:active,
+  #e106:active {
+    border-radius: 6px !important;
+    font-family: var(--fontFamily__base) !important;
+    font-size: var(--fontSize__base) !important;
+    font-weight: 600 !important;
+  }
 }
