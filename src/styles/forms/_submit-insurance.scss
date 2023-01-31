@@ -22,6 +22,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
   .ft--theme--FormField--radio,
   div[data-type="Paragraph"] {
     grid-column: span 2;
+
+    @media (max-width: 500px) {
+      grid-column: auto;
+    }
   }
 
   // top section
@@ -49,6 +53,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     div[data-type="Heading"],
     div[data-type="Subhead"] {
       grid-column: span 2;
+
+      @media (max-width: 500px) {
+        grid-column: auto;
+      }
     }
   }
 
@@ -70,6 +78,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     div[data-type="Heading"],
     div[data-type="Subhead"] {
       grid-column: span 2;
+
+      @media (max-width: 500px) {
+        grid-column: auto;
+      }
     }
   }
 
@@ -91,6 +103,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     div[data-type="Heading"],
     div[data-type="Subhead"] {
       grid-column: span 2;
+
+      @media (max-width: 500px) {
+        grid-column: auto;
+      }
     }
   }
 
