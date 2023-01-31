@@ -30,7 +30,7 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
-    @media (max-width: 480px) {
+    @media (max-width: 500px) {
       grid-template-columns: 1fr;
     }
   }
@@ -41,6 +41,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
 
     div[data-type="Heading"],
     div[data-type="Subhead"] {
@@ -59,6 +63,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     border-radius: 10px;
     border: 1px solid #e3eaf1;
 
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+
     div[data-type="Heading"],
     div[data-type="Subhead"] {
       grid-column: span 2;
@@ -76,6 +84,10 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     border-radius: 10px;
     border: 1px solid #e3eaf1;
 
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+
     div[data-type="Heading"],
     div[data-type="Subhead"] {
       grid-column: span 2;
@@ -90,6 +102,11 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     gap: 5px;
     margin-top: 2rem !important;
 
+    @media (max-width: 500px) {
+      justify-content: center;
+      flex-direction: column;
+    }
+
     .ft--pos--e101 {
       margin-left: auto !important;
     }
@@ -102,6 +119,27 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     top: 95px;
     right: 34px;
 
+    @media (max-width: 991px) {
+      top: 80px;
+    }
+
+    @media (max-width: 500px) {
+      top: 16px;
+      right: 10px;
+      height: 32px;
+      width: 32px;
+      background: var(--color__secondary-red--100);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        background: var(--color__secondary-red--200);
+      }
+    }
+
     svg {
       height: 32px;
       width: 32px;
@@ -112,6 +150,15 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
       }
 
       &:hover {
+        path {
+          fill: var(--color__secondary-red--500) !important;
+        }
+      }
+
+      @media (max-width: 500px) {
+        height: 16px;
+        width: 16px;
+
         path {
           fill: var(--color__secondary-red--500) !important;
         }
