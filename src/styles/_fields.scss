@@ -52,6 +52,7 @@ div.ft--theme--FormField--fileupload {
     .ft--label {
       font-weight: 600 !important;
       color: var(--color__neutral--900) !important;
+      margin: 0 auto !important;
     }
   }
 
@@ -64,6 +65,21 @@ div.ft--theme--FormField--fileupload {
     text-align: center !important;
     font-family: var(--fontFamily__base) !important;
     color: var(--color__neutral--600);
+    bottom: 10px;
+  }
+
+  .ft--icon {
+    path {
+      fill: var(--color__blue) !important;
+    }
+  }
+
+  .ft--textContainer {
+    grid-template-areas:
+      ". . ."
+      ". icon ."
+      ". label .";
+    padding: 3rem 2rem;
   }
 
   // attached file(s)
