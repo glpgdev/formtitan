@@ -23,7 +23,7 @@ div.ft--theme--FormField-elRoot {
   }
 
   &.Mui-error {
-    border: 1px solid var(--color__red-secondary__300) !important;
+    border: 1px solid var(--color__secondary-red__300) !important;
   }
 }
 
@@ -38,7 +38,7 @@ label.ft--label.ft--shrink {
   & ~ p.ft-helper-txt {
     &.Mui-error {
       font-size: var(--fontSize__base--sm) !important;
-      color: var(--color__red-secondary__500) !important;
+      color: var(--color__secondary-red__500) !important;
     }
   }
 }
