@@ -4,7 +4,7 @@
 .ft--theme--FormField--text input::placeholder {
   color: var(--color__neutral--900) !important;
 
-  &[readonly] {
+  &:read-only {
     color: var(--color__neutral--600) !important;
   }
 }
