@@ -35,6 +35,7 @@ label.ft--label.ft--shrink {
   font-family: var(--fontFamily__base) !important;
   top: -5px;
 
+  .fterror p.ft-helper-txt,
   & ~ p.ft-helper-txt {
     &.Mui-error {
       font-size: var(--fontSize__base--sm) !important;
