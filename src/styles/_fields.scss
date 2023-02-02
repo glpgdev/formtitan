@@ -35,7 +35,6 @@ label.ft--label.ft--shrink {
   font-family: var(--fontFamily__base) !important;
   top: -5px;
 
-  .fterror p.ft-helper-txt,
   & ~ p.ft-helper-txt {
     &.Mui-error {
       font-size: var(--fontSize__base--sm) !important;
@@ -46,6 +45,11 @@ label.ft--label.ft--shrink {
 
 div.ft--theme--FormField--fileupload {
   width: 100% !important;
+
+  &.fterror p.ft-helper-txt {
+    font-size: var(--fontSize__base--sm) !important;
+    color: var(--color__secondary-red--500) !important;
+  }
 
   > div {
     background: none !important;
