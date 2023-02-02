@@ -1,3 +1,15 @@
+// input styles
+.ft--theme--FormField--text input,
+.ft--theme--FormField--text [role="textbox"],
+.ft--theme--FormField--text input::placeholder {
+  color: var(--color__neutral--900) !important;
+
+  &[readonly] {
+    color: var(--color__neutral--600) !important;
+  }
+}
+
+// input wrapper styles
 div.ft--theme--FormField-elRoot {
   border: none !important;
   border-radius: 6px !important;
