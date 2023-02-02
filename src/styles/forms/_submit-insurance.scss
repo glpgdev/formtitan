@@ -1,4 +1,7 @@
 div[data-page="63d40c71d124b4071f4af0ba"] {
+  // hide scrollbars
+  overflow-y: hidden;
+
   // fix titan mobile crap
   @media (max-width: 991px) {
     #s1,
