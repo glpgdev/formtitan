@@ -129,7 +129,8 @@ div[data-page="63d40c71d124b4071f4af0ba"] {
     }
 
     .ft--pos--e101,
-    .ft--pos--e101:active {
+    .ft--pos--e101.ftb-resizers.size--fix:active,
+    .ft--pos--e101.ftb-resizers:active {
       margin-left: auto !important;
     }
   }
