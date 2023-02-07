@@ -2,6 +2,10 @@ div[data-page="63e1292bc4a96a2711d55320"] {
   // hide scrollbars
   overflow-y: hidden;
 
+  .ft--e3--root {
+    min-height: 0 !important;
+  }
+
   // fix titan mobile crap
   @media (max-width: 991px) {
     #s1,
