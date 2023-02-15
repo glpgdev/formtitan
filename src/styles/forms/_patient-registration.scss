@@ -19,6 +19,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+    row-gap: 20px;
     // fix weird overflow
     padding-top: 5px !important;
 
@@ -29,7 +30,8 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   }
 
   // step 1 button
-  .ft--theme--Button--primary {
+  .ft--theme--Button--primary,
+  .ft--theme--Button--primary:active {
     grid-column: span 2;
     margin-left: auto;
   }
