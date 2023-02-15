@@ -1,0 +1,19 @@
+div[data-page="63e27e06eed0df7e7d466584"] {
+  // step 1 container
+  #e18 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 50px;
+  }
+
+  // step 1 fields container
+  #e184 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    // registration id field
+    .ft--e19--root {
+      grid-column: span 2;
+    }
+  }
+}
