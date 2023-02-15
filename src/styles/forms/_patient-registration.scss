@@ -30,9 +30,9 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   }
 
   // step 1 button
-  .ft--theme--Button--primary,
-  .ft--theme--Button--primary:active {
-    grid-column: span 2;
+  div[data-type="Button"].ft--theme--Button--primary,
+  div[data-type="Button"].ft--theme--Button--primary:active {
+    grid-column: span 2 !important;
     margin-left: auto !important;
   }
 }
