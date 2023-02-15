@@ -1,4 +1,12 @@
 div[data-page="63e27e06eed0df7e7d466584"] {
+  // resets
+  // remove margin top from subheaders
+  div[data-type="Subhead"] {
+    .ft--theme--Typography--subhead {
+      margin-top: 0 !important;
+    }
+  }
+
   // step 1 container
   #e18 {
     display: grid;
@@ -10,10 +18,19 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e184 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    // fix weird overflow
+    padding-top: 5px !important;
 
     // registration id field
     .ft--e19--root {
       grid-column: span 2;
     }
+  }
+
+  // step 1 button
+  .ft--theme--Button--primary {
+    grid-column: span 2;
+    margin-left: auto;
   }
 }
