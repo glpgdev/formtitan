@@ -81,3 +81,14 @@ div[data-page="63e27e06eed0df7e7d466584"] {
 .ft--e233--root {
   grid-column: span 2 !important;
 }
+
+// insurance information
+#e193 {
+  grid-template-columns: 1fr 1fr;
+
+  div.ft--e46--root,
+  div.ft--e49--root,
+  div.ft--e57--root {
+    grid-column: span 2;
+  }
+}
