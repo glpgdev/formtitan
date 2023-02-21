@@ -11,9 +11,9 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e18,
   div[data-type="Auto Fit Container"].ft--e208--root,
   div[data-type="Auto Fit Container"].ft--e209--root {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 50px;
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    column-gap: 50px !important;
   }
 
   // step 1 fields container
