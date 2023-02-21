@@ -21,6 +21,8 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     display: grid !important;
     grid-template-columns: 1fr 2fr !important;
     column-gap: 50px !important;
+    // fix weird overflow
+    padding-top: 5px !important;
   }
 
   // step 1 fields container
