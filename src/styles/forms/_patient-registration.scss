@@ -9,8 +9,15 @@ div[data-page="63e27e06eed0df7e7d466584"] {
 
   // containers
   #e18,
-  div[data-type="Auto Fit Container"].ft--e208--root,
-  div[data-type="Auto Fit Container"].ft--e209--root {
+  div[data-type="Auto Fit Container"].ft--e218--root,
+  div[data-type="Auto Fit Container"].ft--e219--root,
+  div[data-type="Auto Fit Container"].ft--e221--root,
+  div[data-type="Auto Fit Container"].ft--e224--root,
+  div[data-type="Auto Fit Container"].ft--e225--root,
+  div[data-type="Auto Fit Container"].ft--e226--root,
+  div[data-type="Auto Fit Container"].ft--e227--root,
+  div[data-type="Auto Fit Container"].ft--e228--root,
+  div[data-type="Auto Fit Container"].ft--e230--root {
     display: grid !important;
     grid-template-columns: 1fr 2fr !important;
     column-gap: 50px !important;
