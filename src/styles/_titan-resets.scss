@@ -1,3 +1,8 @@
+// fix weird overflow
+.ft--control--root {
+  padding-right: 1px !important;
+}
+
 // remove default border from containers
 .ft--theme--Stack--root {
   border: none !important;
