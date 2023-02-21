@@ -21,16 +21,29 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     display: grid !important;
     grid-template-columns: 1fr 2fr !important;
     column-gap: 50px !important;
+    margin-bottom: 50px;
     // fix weird overflow
     padding-top: 5px !important;
   }
 
+  // inner containers
+  #e184,
+  #e186,
+  #e188,
+  #e193,
+  #e201,
+  #e203,
+  #e209,
+  #e211,
+  #e214 {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+
   // step 1 fields container
   #e184 {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 20px;
 
     // registration id field
     .ft--e19--root {
