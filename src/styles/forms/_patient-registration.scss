@@ -43,6 +43,15 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     column-gap: 10px;
   }
 
+  // button placement
+  #e191,
+  #e195,
+  #e200,
+  #e205,
+  #e213 {
+    display: flex;
+  }
+
   // step 1 fields container
   #e184 {
     grid-template-columns: 1fr 1fr;
