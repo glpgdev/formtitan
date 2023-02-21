@@ -15,7 +15,7 @@ html {
 
 body {
   color: var(--color__neutral--800) !important;
-  line-height: 1.75;
+  line-height: 1.75 !important;
   font-family: var(--fontFamily__base);
   font-weight: 400;
   letter-spacing: -0.01em;
