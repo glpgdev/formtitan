@@ -113,4 +113,27 @@ div[data-page="63e27e06eed0df7e7d466584"] {
       grid-column: span 2;
     }
   }
+
+  // communicating with you
+  #e203 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--e85--root {
+      grid-column: span 2;
+    }
+  }
+
+  // emergency contact
+  #e201 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // communicating with others
+  #e211 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--e80--root {
+      grid-column: span 2;
+    }
+  }
 }
