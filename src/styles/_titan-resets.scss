@@ -1,3 +1,8 @@
+// remove default border from containers
+.ft--theme--Stack--root {
+  border: none !important;
+}
+
 // remove top from absolute form
 div[data-type="Form"] {
   top: 0 !important;
