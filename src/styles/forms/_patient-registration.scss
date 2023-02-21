@@ -132,8 +132,14 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e211 {
     grid-template-columns: 1fr 1fr;
 
-    div.ft--e80--root {
+    div.ft--e80--root,
+    div.ft--e175--root {
       grid-column: span 2;
     }
+  }
+
+  // primary care physician
+  #e209 {
+    grid-template-columns: 1fr 1fr;
   }
 }
