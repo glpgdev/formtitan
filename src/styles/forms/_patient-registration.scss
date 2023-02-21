@@ -23,7 +23,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e230 {
     display: grid !important;
     grid-template-columns: 1fr 2fr !important;
-    column-gap: 50px !important;
+    column-gap: 70px !important;
     margin-bottom: 50px;
     // fix weird overflow
     padding-top: 5px !important;
@@ -98,8 +98,9 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     grid-template-columns: 1fr 1fr;
 
     div.ft--e46--root,
-    div.ft--e49--root,
-    div.ft--e57--root {
+    div.ft--e57--root,
+    div.ft--e70--root,
+    div.ft--e80--root {
       grid-column: span 2;
     }
   }
