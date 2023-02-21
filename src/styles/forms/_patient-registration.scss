@@ -38,7 +38,11 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   .ftb-resizers:active:not(.ft--theme--Section--root):not(
       .ft--theme--Strip--root
     ) {
-    grid-column: span 2 !important;
     margin-left: auto !important;
   }
+}
+
+// button container
+.ft--e233--root {
+  grid-column: span 2 !important;
 }
