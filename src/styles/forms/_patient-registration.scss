@@ -77,30 +77,39 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     ):not(.ft--theme--Button--secondary) {
     margin-left: auto !important;
   }
-}
 
-// button container
-.ft--e233--root {
-  grid-column: span 2 !important;
-}
-
-// additional patient information
-#e190 {
-  grid-template-columns: 1fr 1fr;
-
-  div.ft--e39--root,
-  div.ft--e40--root {
-    grid-column: span 2;
+  // button container
+  .ft--e233--root {
+    grid-column: span 2 !important;
   }
-}
 
-// insurance information
-#e193 {
-  grid-template-columns: 1fr 1fr;
+  // additional patient information
+  #e190 {
+    grid-template-columns: 1fr 1fr;
 
-  div.ft--e46--root,
-  div.ft--e49--root,
-  div.ft--e57--root {
-    grid-column: span 2;
+    div.ft--e39--root,
+    div.ft--e40--root {
+      grid-column: span 2;
+    }
+  }
+
+  // insurance information
+  #e193 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--e46--root,
+    div.ft--e49--root,
+    div.ft--e57--root {
+      grid-column: span 2;
+    }
+  }
+
+  // additional insurance
+  #e198 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--e70--root {
+      grid-column: span 2;
+    }
   }
 }
