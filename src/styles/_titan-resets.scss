@@ -39,3 +39,8 @@ div[data-type="Heading"],
 div[data-type="Subhead"] {
   margin: 0 !important;
 }
+
+// remove min height on select (and others?)
+div.inputRoot {
+  height: auto !important;
+}
