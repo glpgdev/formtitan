@@ -41,6 +41,6 @@ div[data-type="Subhead"] {
 }
 
 // remove min height on select (and others?)
-div.inputRoot {
+.ft--theme--FormField--select .inputRoot {
   height: auto !important;
 }
