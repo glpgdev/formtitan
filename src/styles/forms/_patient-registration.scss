@@ -144,4 +144,9 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e209 {
     grid-template-columns: 1fr 1fr;
   }
+
+  // adjust select input heights
+  .ft--e94--root.ft--theme--FormField--select .inputRoot {
+    min-height: auto !important;
+  }
 }
