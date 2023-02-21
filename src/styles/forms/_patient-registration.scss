@@ -43,10 +43,10 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   div[data-type="Button"].ft--theme--Button--primary:active,
   .ftb-resizers.size--fix:active:not(.ft--theme--Section--root):not(
       .ft--theme--Strip--root
-    ),
+    ):not(.ft--theme--Button--secondary),
   .ftb-resizers:active:not(.ft--theme--Section--root):not(
       .ft--theme--Strip--root
-    ) {
+    ):not(.ft--theme--Button--secondary) {
     margin-left: auto !important;
   }
 }
