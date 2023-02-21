@@ -13,6 +13,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e219,
   #e220,
   #e221,
+  #e222,
   #e223,
   #e224,
   #e225,
@@ -35,6 +36,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e190,
   #e193,
   #e196,
+  #e198,
   #e201,
   #e203,
   #e209,
@@ -80,6 +82,16 @@ div[data-page="63e27e06eed0df7e7d466584"] {
 // button container
 .ft--e233--root {
   grid-column: span 2 !important;
+}
+
+// additional patient information
+#e190 {
+  grid-template-columns: 1fr 1fr;
+
+  div.ft--e39--root,
+  div.ft--e40--root {
+    grid-column: span 2;
+  }
 }
 
 // insurance information
