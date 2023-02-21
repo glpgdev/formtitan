@@ -40,6 +40,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   #e198,
   #e201,
   #e203,
+  #e207,
   #e209,
   #e211,
   #e214 {
@@ -143,6 +144,16 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   // primary care physician
   #e209 {
     grid-template-columns: 1fr 1fr;
+  }
+
+  // agreement of financial responsibility
+  #e207 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--pos--e145,
+    div.ft--pos--e146 {
+      grid-column: span 2;
+    }
   }
 
   // adjust select input heights
