@@ -15,14 +15,17 @@ div.ft--theme--FormField-elRoot {
   border-radius: 6px !important;
   background: var(--color__neutral--100) !important;
   font-size: var(--fontSize__base--sm) !important;
-  height: 48px !important;
-  line-height: 48px !important;
   padding: 0 20px !important;
   width: 100% !important;
   outline: 0 !important;
 
   + fieldset {
     display: none;
+  }
+
+  &:not(.ft--theme--FormField--textarea-form-control) {
+    height: 48px !important;
+    line-height: 48px !important;
   }
 
   &[aria-invalid="true"] {
