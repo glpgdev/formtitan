@@ -156,6 +156,16 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     }
   }
 
+  // you're almost done
+  #e238 {
+    grid-template-columns: 1fr 1fr;
+
+    div.ft--e145--root,
+    div.ft--e146--root {
+      grid-column: span 2;
+    }
+  }
+
   // adjust select input heights
   .ft--e94--root.ft--theme--FormField--select .inputRoot {
     min-height: auto !important;
