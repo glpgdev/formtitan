@@ -1,10 +1,13 @@
-#e234 {
+#e234,
+#e239,
+#e241 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 5px;
 
   div[data-type="Paragraph"] {
     grid-column: span 5;
+    margin: 0;
 
     div {
       font-weight: 600;
