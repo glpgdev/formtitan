@@ -171,13 +171,17 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   }
 
   // address fields
+  div[data-type="Auto Fit Container"].ft--e239--root,
+  div[data-type="Auto Fit Container"].ft--e241--root {
+    grid-column: span 2;
+  }
+
   #e234,
   #e239,
   #e241 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
-    grid-column: span 2;
 
     div[data-type="Paragraph"] {
       grid-column: span 5;
