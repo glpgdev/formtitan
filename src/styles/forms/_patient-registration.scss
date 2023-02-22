@@ -160,4 +160,14 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   .ft--e94--root.ft--theme--FormField--select .inputRoot {
     min-height: auto !important;
   }
+
+  // label position adjustments
+  #e40,
+  #e74,
+  #e75,
+  #e84 {
+    > label + div {
+      margin-top: 36px !important;
+    }
+  }
 }
