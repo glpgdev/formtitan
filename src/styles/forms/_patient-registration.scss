@@ -78,6 +78,10 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     // registration id field
     .ft--e19--root {
       grid-column: span 2;
+
+      @media (max-width: 560px) {
+        grid-column: auto;
+      }
     }
   }
 
