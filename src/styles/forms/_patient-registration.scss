@@ -28,6 +28,10 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     margin-bottom: 50px;
     // fix weird overflow
     padding-top: 5px !important;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr !important;
+    }
   }
 
   // inner containers
