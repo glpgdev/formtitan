@@ -29,7 +29,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     // fix weird overflow
     padding-top: 5px !important;
 
-    @media (max-width: 991px) {
+    @media (max-width: 500px) {
       grid-template-columns: 1fr !important;
     }
   }
@@ -89,7 +89,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   .ft--e233--root {
     grid-column: span 2 !important;
 
-    @media (max-width: 991px) {
+    @media (max-width: 500px) {
       grid-column: auto !important;
     }
   }
