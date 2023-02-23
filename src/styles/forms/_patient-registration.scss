@@ -30,7 +30,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     padding-top: 5px !important;
 
     @media (max-width: 991px) {
-      grid-column: 1fr !important;
+      grid-template-columns: 1fr !important;
     }
   }
 
