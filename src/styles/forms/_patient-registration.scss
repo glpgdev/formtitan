@@ -30,7 +30,7 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     padding-top: 5px !important;
 
     @media (max-width: 991px) {
-      display: flex !important;
+      grid-column: 1fr !important;
     }
   }
 
@@ -88,6 +88,10 @@ div[data-page="63e27e06eed0df7e7d466584"] {
   // button container
   .ft--e233--root {
     grid-column: span 2 !important;
+
+    @media (max-width: 991px) {
+      grid-column: auto !important;
+    }
   }
 
   // additional patient information
