@@ -50,6 +50,7 @@ label.ft--label.ft--shrink {
   color: var(--color__neutral--900) !important;
   font-family: var(--fontFamily__base) !important;
   top: -5px;
+  line-height: 1.4;
 
   & ~ p.ft-helper-txt {
     &.Mui-error {
