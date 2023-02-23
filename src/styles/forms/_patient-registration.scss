@@ -97,7 +97,20 @@ div[data-page="63e27e06eed0df7e7d466584"] {
     margin-left: auto !important;
 
     @media (max-width: 450px) {
-      margin: 0 !important;
+      margin: 20px 0 5px 0 !important;
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width: 450px) {
+    div[data-type="Button"].ft--theme--Button--primary,
+    div[data-type="Button"].ft--theme--Button--primary:active,
+    .ftb-resizers.size--fix:active:not(.ft--theme--Section--root):not(
+        .ft--theme--Strip--root
+      ),
+    .ftb-resizers:active:not(.ft--theme--Section--root):not(
+        .ft--theme--Strip--root
+      ) {
       width: 100% !important;
     }
   }
