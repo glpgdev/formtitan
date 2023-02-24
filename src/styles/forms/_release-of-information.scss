@@ -1,6 +1,7 @@
 div[data-page="63ebad339df0fc57fce02ca6"] {
-  div[data-type="Subhead"] .ft--theme--Typography--subhead {
-    margin: 0 !important;
+  div.ft--theme--Typography--subhead:not([data-type="Subhead"]) {
+    font-size: var(--fontSize__h5) !important;
+    margin-top: 0 !important;
   }
 
   #e52 {
@@ -17,5 +18,25 @@ div[data-page="63ebad339df0fc57fce02ca6"] {
     display: grid !important;
     grid-template-columns: 1fr 2fr !important;
     column-gap: 100px !important;
+  }
+
+  #e193,
+  #e199,
+  #e202,
+  #e205,
+  #e208 {
+    > div[data-type="Paragraph"]:first-of-type {
+      color: #38bec9 !important;
+    }
+  }
+
+  #e183 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 10px !important;
+  }
+
+  .ft--theme--FormField--checkbox div[role="radiogroup"] {
+    margin-bottom: 20px !important;
   }
 }

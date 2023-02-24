@@ -112,4 +112,8 @@ div.ft--theme--FormField--fileupload {
   // attached file(s)
   &.ftsuccess {
   }
+
+  .ft--theme--FormField--checkbox div[role="radiogroup"] {
+    row-gap: 10px;
+  }
 }
