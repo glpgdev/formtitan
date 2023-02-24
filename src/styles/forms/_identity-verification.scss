@@ -1,0 +1,14 @@
+#identification-form {
+  #e8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  // button
+  #e11 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
