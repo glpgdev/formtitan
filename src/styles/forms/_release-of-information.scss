@@ -7,7 +7,7 @@ div[data-page="63ebad339df0fc57fce02ca6"] {
   #e52 {
     display: flex !important;
     flex-direction: column !important;
-    row-gap: 50px !important;
+    row-gap: 70px !important;
   }
 
   #e197,
@@ -43,6 +43,53 @@ div[data-page="63ebad339df0fc57fce02ca6"] {
 
     div[role="radiogroup"] {
       margin-bottom: 20px !important;
+    }
+  }
+
+  #e211 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 10px !important;
+    row-gap: 30px !important;
+
+    div[data-type="Auto Fit Container"] {
+      grid-column: span 2;
+    }
+  }
+
+  // address fields
+  #e210 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+
+    div[data-type="Paragraph"] {
+      grid-column: span 5;
+      margin: 0;
+
+      div {
+        font-weight: 600;
+        color: #102a43 !important;
+        font-size: 0.833rem !important;
+      }
+    }
+
+    > div[data-type="Input Fields"] {
+      &:nth-of-type(3) {
+        grid-column: span 5;
+      }
+
+      &:nth-of-type(5) {
+        grid-column: 1 / 3;
+      }
+
+      &:nth-of-type(7) {
+        grid-column: 3 / 4;
+      }
+
+      &:nth-of-type(9) {
+        grid-column: 4 / 6;
+      }
     }
   }
 }
