@@ -101,4 +101,13 @@
     margin-bottom: 50px !important;
     align-items: end;
   }
+
+  #e214 {
+    display: flex;
+    justify-content: space-between;
+
+    > div[data-type="Button"]:last-of-type {
+      margin-left: auto !important;
+    }
+  }
 }
