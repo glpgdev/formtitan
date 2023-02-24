@@ -92,4 +92,12 @@ div[data-page="63ebad339df0fc57fce02ca6"] {
       }
     }
   }
+
+  #e156 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 10px !important;
+    row-gap: 30px !important;
+    margin-bottom: 50px !important;
+  }
 }

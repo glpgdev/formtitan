@@ -1,4 +1,5 @@
-div[data-page="63e27e06eed0df7e7d466584"] {
+// div[data-page="63e27e06eed0df7e7d466584"] {
+#registration-form {
   // resets
   // remove margin top from subheaders
   div[data-type="Subhead"] {
@@ -322,11 +323,11 @@ div[data-page="63e27e06eed0df7e7d466584"] {
       }
 
       &:nth-of-type(7) {
-        grid-column: 3 / 4;
+        grid-column: 3 / 5;
       }
 
       &:nth-of-type(9) {
-        grid-column: 4 / 6;
+        grid-column: 5 / 6;
       }
     }
   }
