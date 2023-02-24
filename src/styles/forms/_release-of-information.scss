@@ -1,0 +1,25 @@
+div[data-page="63ebad339df0fc57fce02ca6"] {
+  div[data-type="Subhead"] .ft--theme--Typography--subhead {
+    margin-top: 0 !important;
+  }
+
+  #e53 .ft--theme--Form--col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    margin-bottom: 50px !important;
+
+    div[data-type="Paragraph"],
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+    }
+  }
+
+  div[data-type="Form"].ft--e65--root,
+  div[data-type="Form"].ft--e77--root,
+  div[data-type="Form"].ft--e89--root,
+  div[data-type="Form"].ft--e100--root {
+    margin-bottom: 50px !important;
+  }
+}
