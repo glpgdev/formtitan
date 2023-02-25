@@ -1,12 +1,27 @@
-div[data-page="63f8d1959230963378529a45"] {
+#submit-docs-form {
   #e18 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
     column-gap: 10px;
+    margin-bottom: 50px;
 
     @media (max-width: 700px) {
       grid-template-columns: 1fr;
+    }
+  }
+
+  // button
+  #e25 {
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 700px) {
+      justify-content: initial;
+
+      div[data-type="Button"] {
+        width: 100% !important;
+      }
     }
   }
 }
