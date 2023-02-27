@@ -1,11 +1,11 @@
 #appointment-form {
   #e53 {
     label.ft--label {
-      margin-bottom: 10px !important;
       font-size: var(--fontSize__base) !important;
     }
 
     div[role="radiogroup"] {
+      margin-top: 30px !important;
       row-gap: 5px !important;
     }
   }
@@ -18,7 +18,20 @@
     justify-content: space-between;
 
     > div[data-type="Button"] {
-      justify-self: flex-end;
+      margin-left: auto !important;
     }
+  }
+
+  // step 2
+  #e58 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+
+  // fields
+  div.ft--theme--FormField-elRoot {
+    background: #fff !important;
   }
 }
