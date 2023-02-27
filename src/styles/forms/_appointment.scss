@@ -1,9 +1,10 @@
 #appointment-form {
-  #e53 {
-    label.ft--label {
-      font-size: var(--fontSize__base) !important;
-    }
+  // labels
+  label.ft--label {
+    font-size: var(--fontSize__base) !important;
+  }
 
+  #e53 {
     div[role="radiogroup"] {
       margin-top: 30px !important;
       row-gap: 5px !important;
