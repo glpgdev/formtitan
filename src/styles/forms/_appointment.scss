@@ -1,0 +1,12 @@
+#appointment-form {
+  #e53 {
+    label.ft--label {
+      margin-bottom: 10px !important;
+      font-size: var(--fontSize__base) !important;
+    }
+
+    div[role="radiogroup"] {
+      row-gap: 5px !important;
+    }
+  }
+}
