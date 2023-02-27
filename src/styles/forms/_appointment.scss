@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 600px) {
+    @media (max-width: 400px) {
       justify-content: center;
       flex-direction: column;
       row-gap: 5px;
@@ -29,7 +29,7 @@
     > div[data-type="Button"]:last-of-type {
       margin-left: auto !important;
 
-      @media (max-width: 600px) {
+      @media (max-width: 400px) {
         margin: 0 auto !important;
       }
     }
@@ -41,7 +41,7 @@
       margin-top: 30px !important;
       row-gap: 5px !important;
 
-      @media (max-width: 600px) {
+      @media (max-width: 400px) {
         grid-template-columns: 1fr !important;
       }
     }
@@ -54,7 +54,7 @@
     column-gap: 10px;
     row-gap: 20px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 400px) {
       grid-template-columns: 1fr !important;
     }
   }
