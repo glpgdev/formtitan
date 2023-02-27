@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
 
-    > div[data-type="Button"] {
+    > div[data-type="Button"]:last-of-type {
       margin-left: auto !important;
     }
   }
