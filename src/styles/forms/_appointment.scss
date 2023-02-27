@@ -4,13 +4,6 @@
     font-size: var(--fontSize__base) !important;
   }
 
-  #e53 {
-    div[role="radiogroup"] {
-      margin-top: 30px !important;
-      row-gap: 5px !important;
-    }
-  }
-
   #e54,
   #e57,
   #e59 {
@@ -23,12 +16,27 @@
     }
   }
 
+  // step 1
+  #e53 {
+    div[role="radiogroup"] {
+      margin-top: 30px !important;
+      row-gap: 5px !important;
+    }
+  }
+
   // step 2
   #e58 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
+  }
+
+  // step 3
+  #e60 {
+    .ft--theme--FormField--radio {
+      margin-top: 10px !important;
+    }
   }
 
   // fields
