@@ -67,4 +67,9 @@
   div.ft--theme--FormField-elRoot {
     background: #fff !important;
   }
+
+  // remove date margin
+  h4.MuiTypography-root-414 {
+    margin: 0 !important;
+  }
 }
