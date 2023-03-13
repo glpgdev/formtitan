@@ -15,7 +15,8 @@
     }
   }
 
-  div[data-type="Auto Fit Container"].ft--e27--root {
+  // address span
+  div[data-type="Auto Fit Container"].ft--e37--root {
     grid-column: span 2;
 
     @media (max-width: 450px) {
