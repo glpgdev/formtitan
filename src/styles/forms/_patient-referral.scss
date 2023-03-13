@@ -1,0 +1,50 @@
+#patient-referral {
+  #e3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+      margin-top: 0 !important;
+    }
+
+    > div[data-type="Input Fields"]:first-of-type {
+      grid-column: span 2;
+    }
+  }
+
+  #e37 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+
+    div[data-type="Paragraph"] {
+      grid-column: span 5;
+      margin: 0;
+
+      div {
+        font-weight: 600;
+        color: #102a43 !important;
+        font-size: 0.833rem !important;
+      }
+    }
+
+    > div[data-type="Input Fields"] {
+      &:nth-of-type(3) {
+        grid-column: span 5;
+      }
+
+      &:nth-of-type(5) {
+        grid-column: 1 / 3;
+      }
+
+      &:nth-of-type(7) {
+        grid-column: 3 / 5;
+      }
+
+      &:nth-of-type(9) {
+        grid-column: 5 / 6;
+      }
+    }
+  }
+}
