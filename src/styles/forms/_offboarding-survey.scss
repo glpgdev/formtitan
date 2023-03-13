@@ -1,0 +1,42 @@
+#offboarding {
+  .ft--theme--FormField--textarea-form-control {
+    min-height: 100px !important;
+  }
+
+  #e48,
+  #e50,
+  #e52,
+  #e54,
+  #e56 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  // buttons
+  #e49,
+  #e51,
+  #e53,
+  #e55,
+  #e57 {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 700px) {
+      row-gap: 5px;
+      flex-direction: column;
+
+      div[data-type="Button"] {
+        width: 100% !important;
+      }
+    }
+
+    > div[data-type="Button"]:last-of-type {
+      margin-left: auto !important;
+
+      @media (max-width: 700px) {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
