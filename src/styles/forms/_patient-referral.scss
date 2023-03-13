@@ -2,6 +2,8 @@
   #e3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
 
     div[data-type="Subhead"] {
       grid-column: span 2;
@@ -13,6 +15,15 @@
     }
   }
 
+  div[data-type="Auto Fit Container"].ft--e27--root {
+    grid-column: span 2;
+
+    @media (max-width: 450px) {
+      grid-column: auto;
+    }
+  }
+
+  // address
   #e37 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -45,6 +56,18 @@
       &:nth-of-type(9) {
         grid-column: 5 / 6;
       }
+    }
+  }
+
+  #e20 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+
+    div[data-type="Subhead"] {
+      grid-column: span 2;
+      margin-top: 0 !important;
     }
   }
 }
