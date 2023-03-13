@@ -3,6 +3,10 @@
     min-height: 100px !important;
   }
 
+  #e46 {
+    margin-top: 0 !important;
+  }
+
   #e48,
   #e50,
   #e52,
@@ -21,6 +25,7 @@
   #e57 {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px !important;
 
     @media (max-width: 700px) {
       row-gap: 5px;
