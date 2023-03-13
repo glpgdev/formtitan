@@ -65,10 +65,10 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
     column-gap: 10px;
+    margin-bottom: 30px !important;
 
     div[data-type="Subhead"] {
       grid-column: span 2;
-      margin-top: 0 !important;
     }
   }
 }
