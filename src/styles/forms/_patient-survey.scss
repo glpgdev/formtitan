@@ -17,11 +17,22 @@
   }
 
   #e5,
-  #e12,
-  #e14 {
+  #e12 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 20px;
+  }
+
+  #e14 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ft--e8--label {
+    font-weight: 600 !important;
+    color: #000 !important;
   }
 }
