@@ -2,8 +2,6 @@
   div[data-type="Paragraph"].ft--e4--root div div div div {
     position: relative !important;
     padding-left: 50px !important;
-    display: flex;
-    align-items: center;
     font-size: 18px;
 
     &::before {
@@ -13,13 +11,14 @@
       height: 32px;
       width: 32px;
       position: absolute;
-      top: 0;
+      top: 10px;
       left: 0;
     }
   }
 
   #e5,
-  #e12 {
+  #e12,
+  #e14 {
     display: flex;
     flex-direction: column;
     gap: 20px;
