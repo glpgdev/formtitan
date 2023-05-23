@@ -226,15 +226,28 @@
     }
 
     div[data-type="Button"] {
+      margin-bottom: 30px !important;
+      width: auto !important;
+      height: auto !important;
+
       &.ft--theme--Button--primary,
       &.ft--theme--Button--secondary {
-        margin: 0 !important;
+        margin-left: 0 !important;
+        width: auto !important;
+        height: auto !important;
 
         button {
           padding: 1px 10px !important;
           margin: 0 !important;
+          width: auto !important;
+          height: auto !important;
+          line-height: inherit !important;
         }
       }
+    }
+
+    div[data-type="Auto Fit Container"].ft--e257--root {
+      grid-column: span 2;
     }
 
     #e257 {
