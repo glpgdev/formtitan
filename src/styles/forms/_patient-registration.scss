@@ -225,10 +225,16 @@
       }
     }
 
-    div[data-type="Button"].ft--theme--Button--primary button,
-    div[data-type="Button"].ft--theme--Button--secondary button {
-      padding: 1px 10px !important;
-      margin: 0 !important;
+    div[data-type="Button"] {
+      &.ft--theme--Button--primary,
+      &.ft--theme--Button--secondary {
+        margin: 0 !important;
+
+        button {
+          padding: 1px 10px !important;
+          margin: 0 !important;
+        }
+      }
     }
 
     #e257 {
