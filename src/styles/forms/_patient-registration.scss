@@ -224,6 +224,17 @@
         grid-column: auto;
       }
     }
+
+    div[data-type="Button"] button {
+      padding: 1px 10px !important;
+      margin: 0 !important;
+    }
+
+    #e257 {
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+    }
   }
 
   // primary care physician
