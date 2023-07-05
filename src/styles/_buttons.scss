@@ -59,6 +59,7 @@ div[data-type="Button"] {
         background-color: var(--color__blue--300) !important;
         border-color: var(--color__blue--300) !important;
         border-radius: 6px !important;
+        padding: 16px 28px !important;
       }
     }
 
@@ -72,12 +73,3 @@ div[data-type="Button"] {
     }
   }
 }
-// &--secondary {
-//   background-color: #fff;
-//   border-color: var(--color__neutral--200);
-//   color: var(--color__neutral--900);
-
-//   &:hover {
-//     border-color: var(--color__neutral--900);
-//   }
-// }
