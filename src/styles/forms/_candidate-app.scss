@@ -1,11 +1,12 @@
 #candidate-application-form {
-  // paragraph id's
-  #e37 {
-    color: var(--color__neutral--700);
-  }
-
+  // subheader
   .ft--theme--Typography--subhead {
     font-size: var(--fontSize__h5) !important;
+  }
+
+  // paragraph
+  .ft--theme--Typography--p {
+    color: var(--color__neutral--600) !important;
   }
 
   // button auto-fit containers
