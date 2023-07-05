@@ -1,0 +1,35 @@
+#candidate-application-form {
+  // paragraph id's
+  #e37 {
+    color: var(--color__neutral--700);
+  }
+
+  // button auto-fit containers
+  #e41,
+  #e43,
+  #e47,
+  #e51,
+  #e54,
+  #e58,
+  #e62 {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 700px) {
+      row-gap: 5px;
+      flex-direction: column;
+
+      div[data-type="Button"] {
+        width: 100% !important;
+      }
+    }
+
+    > div[data-type="Button"]:last-of-type {
+      margin-left: auto !important;
+
+      @media (max-width: 700px) {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
