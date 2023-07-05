@@ -38,4 +38,18 @@
       }
     }
   }
+
+  // grid
+  #e70 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 700px) {
+      display: block;
+    }
+
+    > div[data-type="Auto Fit Container"]:nth-of-type(1) {
+      grid-column: span 2;
+    }
+  }
 }
