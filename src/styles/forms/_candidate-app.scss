@@ -19,7 +19,7 @@
   #e62 {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    padding-top: 40px;
 
     @media (max-width: 700px) {
       row-gap: 5px;
