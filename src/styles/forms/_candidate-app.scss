@@ -1,7 +1,18 @@
 #candidate-application-form {
+  // containers
+  div[data-type="Auto Fit Container"] {
+    margin-bottom: 15px;
+  }
+  // progress bar
+  #e85 {
+    margin-bottom: 2rem !important;
+    border-radius: 2.5px !important;
+    overflow: hidden !important;
+  }
+
   // subheader
   .ft--theme--Typography--subhead {
-    font-size: var(--fontSize__h5) !important;
+    font-weight: 600 !important;
     font-size: 18px !important;
     margin: 0 0 5px !important;
   }
@@ -69,6 +80,8 @@
   #e17 > div:first-of-type {
     display: grid;
     grid-template: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 20px;
 
     @media (max-width: 700px) {
       grid-template-columns: 1fr;
