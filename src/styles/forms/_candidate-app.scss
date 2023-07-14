@@ -7,8 +7,12 @@
   // progress bar
   div[data-type="Progress"] {
     margin-bottom: 2rem !important;
-    border-radius: 2.5px !important;
-    overflow: hidden !important;
+
+    div div div {
+      width: 100% !important;
+      border-radius: 2.5px !important;
+      overflow: hidden !important;
+    }
   }
 
   // subheader
