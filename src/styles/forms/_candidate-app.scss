@@ -4,16 +4,20 @@
     margin-bottom: 15px;
   }
 
-  // progress bar
-  div[data-type="Progress"] {
-    margin-bottom: 2rem !important;
-
-    div div div {
-      width: 100% !important;
-      border-radius: 2.5px !important;
-      overflow: hidden !important;
-    }
+  .MuiPaper-root-48 {
+    background: none !important;
   }
+
+  // progress bar - removed progress bar
+  // div[data-type="Progress"] {
+  //   margin-bottom: 2rem !important;
+
+  //   div div div {
+  //     width: 100% !important;
+  //     border-radius: 2.5px !important;
+  //     overflow: hidden !important;
+  //   }
+  // }
 
   // subheader
   .ft--theme--Typography--subhead {
@@ -51,10 +55,6 @@
       div[data-type="Button"] {
         width: 100% !important;
       }
-    }
-
-    > div [data-type="Button"]:first-of-type {
-      grid-column: span 2 !important;
     }
 
     > div[data-type="Button"]:last-of-type {
