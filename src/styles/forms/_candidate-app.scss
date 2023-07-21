@@ -78,6 +78,9 @@
       grid-template-columns: 1fr;
     }
 
+    > div[data-type="Auto Fit Container"] > [data-type="Progress"] {
+      grid-column: span 2;
+
     > div[data-type="Auto Fit Container"]:nth-of-type(1) {
       grid-column: span 2;
 
