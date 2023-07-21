@@ -4,11 +4,6 @@
     margin-bottom: 15px;
   }
 
-  //hide Titan progress bar
-  #e94 > div {
-    display: none;
-  }
-
   // progress bar
   div[data-type="Progress"] {
     margin-bottom: 2rem !important;
@@ -73,27 +68,18 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
-    background-color: purple;
 
     @media (max-width: 700px) {
       grid-template-columns: 1fr;
     }
 
-    > div:nth-of-type(1) {
+    > div[data-type="Auto Fit Container"]:nth-of-type(1) {
       grid-column: span 2;
 
       @media (max-width: 700px) {
         grid-column: span 1;
       }
     }
-
-    // > div[data-type="Auto Fit Container"]:nth-of-type(1) {
-    //   grid-column: span 2;
-
-    //   @media (max-width: 700px) {
-    //     grid-column: span 1;
-    //   }
-    // }
   }
 
   #e17 > div:first-of-type {
