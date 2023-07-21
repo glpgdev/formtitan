@@ -4,6 +4,11 @@
     margin-bottom: 15px;
   }
 
+  //hide Titan progress bar
+  .ft--e94--panelRoot {
+    display: none;
+  }
+
   // progress bar
   div[data-type="Progress"] {
     margin-bottom: 2rem !important;
