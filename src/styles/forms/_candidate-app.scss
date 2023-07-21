@@ -4,20 +4,16 @@
     margin-bottom: 15px;
   }
 
-  .ft--theme--Stepper--scroll {
-    background: none !important;
+  // progress bar
+  div[data-type="Progress"] {
+    margin-bottom: 2rem !important;
+
+    div div div {
+      width: 100% !important;
+      border-radius: 2.5px !important;
+      overflow: hidden !important;
+    }
   }
-
-  // progress bar - removed progress bar
-  // div[data-type="Progress"] {
-  //   margin-bottom: 2rem !important;
-
-  //   div div div {
-  //     width: 100% !important;
-  //     border-radius: 2.5px !important;
-  //     overflow: hidden !important;
-  //   }
-  // }
 
   // subheader
   .ft--theme--Typography--subhead {
