@@ -252,6 +252,20 @@
       }
     }
 
+    div[data-type="Auto Fit Container"] {
+      grid-column: span 2;
+
+      > .ft--control--root > div:first-of-type {
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+      }
+
+      @media (max-width: 450px) {
+        grid-column: auto;
+      }
+    }
+
     div[data-type="Auto Fit Container"].ft--e257--root {
       grid-column: span 2;
     }
