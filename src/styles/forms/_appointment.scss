@@ -67,8 +67,17 @@
     background: #fff !important;
   }
 
+  .MuiPickersDatePickerRoot-toolbar-373 {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    height: auto !important;
+  }
+
   // remove date margin
   h4 {
     margin: 0 !important;
+    font-size: 20px !important;
   }
 }
