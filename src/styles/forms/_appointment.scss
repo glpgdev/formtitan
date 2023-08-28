@@ -49,6 +49,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
+    min-height: 400px;
 
     @media (max-width: 400px) {
       grid-template-columns: 1fr !important;
