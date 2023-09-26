@@ -7,10 +7,7 @@
     row-gap: 20px;
     column-gap: 10px;
 
-    div[data-type="Subhead"] .ft--theme--Typography--subhead {
-      grid-column: span 2;
-      margin-top: 0 !important;
-    }
+   
 
     > div[data-type="Input Fields"]:first-of-type {
       grid-column: span 2;
@@ -24,6 +21,11 @@
     @media (max-width: 450px) {
       grid-column: auto;
     }
+  }
+  
+  div[data-type="Subhead"] .ft--theme--Typography--subhead {
+    grid-column: span 2;
+    margin-top: 0 !important;
   }
 
   address
@@ -63,22 +65,21 @@
   }
 
   // office contact information
-  
-#e37 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 10px;
+  #e37 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 10px;
 
-    div[data-type="Subhead"] .ft--theme--Typography--subhead {
-      grid-column: span 2;
-      margin-top: 0 !important;
-    }
+      div[data-type="Subhead"] .ft--theme--Typography--subhead {
+        grid-column: span 2;
+        margin-top: 0 !important;
+      }
 
-    > div[data-type="Input Fields"]:first-of-type {
-      grid-column: span 2;
+      > div[data-type="Input Fields"]:first-of-type {
+        grid-column: span 2;
+      }
     }
-  }
 
   // address span
   div[data-type="Auto Fit Container"].ft--e37--root {
@@ -88,7 +89,8 @@
       grid-column: auto;
     }
   }
-// IS a minor patient info
+
+  // IS a minor patient info
   #e47 {
     display: grid;
     grid-template-columns: 1fr 1fr;
