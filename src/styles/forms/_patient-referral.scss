@@ -17,6 +17,18 @@
     }
   }
 
+  //paragraph grid
+  div[data-type="Paragraph"] {
+    grid-column: span 2;
+    margin: 0;
+
+    div {
+      font-weight: 600;
+      color: #102a43 !important;
+      font-size: 0.833rem !important;
+    }
+  }
+
   // address span
   div[data-type="Auto Fit Container"].ft--e37--root {
     grid-column: span 2;
@@ -32,16 +44,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
 
-    div[data-type="Paragraph"] {
-      grid-column: span 5;
-      margin: 0;
+    // div[data-type="Paragraph"] {
+    //   grid-column: span 5;
+    //   margin: 0;
 
-      div {
-        font-weight: 600;
-        color: #102a43 !important;
-        font-size: 0.833rem !important;
-      }
-    }
+    //   div {
+    //     font-weight: 600;
+    //     color: #102a43 !important;
+    //     font-size: 0.833rem !important;
+      // }
+    // }
 
     > div[data-type="Input Fields"] {
       &:nth-of-type(3) {
