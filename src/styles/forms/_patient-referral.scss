@@ -12,8 +12,12 @@
     //   margin-top: 0 !important;
     // }
 
-    > div:first-of-type {
-      grid-column: span 2;
+    // > div:first-of-type {
+    //   grid-column: span 2;
+    // }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -30,19 +34,23 @@
   }
 
   // address span
-  div[data-type="Auto Fit Container"].ft--e37--root {
-    grid-column: span 2;
+  // div[data-type="Auto Fit Container"].ft--e37--root {
+  //   grid-column: span 2;
 
-    @media (max-width: 450px) {
-      grid-column: auto;
-    }
-  }
+  //   @media (max-width: 450px) {
+  //     grid-column: auto;
+  //   }
+  // }
 
   address
   #e70 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
 
     // div[data-type="Paragraph"] {
     //   grid-column: span 5;
@@ -55,23 +63,23 @@
       // }
     // }
 
-    > div[data-type="Input Fields"] {
-      &:nth-of-type(3) {
-        grid-column: span 5;
-      }
+    // > div[data-type="Input Fields"] {
+    //   &:nth-of-type(3) {
+    //     grid-column: span 5;
+    //   }
 
-      &:nth-of-type(5) {
-        grid-column: 1 / 3;
-      }
+    //   &:nth-of-type(5) {
+    //     grid-column: 1 / 3;
+    //   }
 
-      &:nth-of-type(7) {
-        grid-column: 3 / 5;
-      }
+    //   &:nth-of-type(7) {
+    //     grid-column: 3 / 5;
+    //   }
 
-      &:nth-of-type(9) {
-        grid-column: 5 / 6;
-      }
-    }
+    //   &:nth-of-type(9) {
+    //     grid-column: 5 / 6;
+    //   }
+    // }
   }
 
   // office contact information
@@ -107,9 +115,13 @@
     row-gap: 20px;
     column-gap: 10px;
 
-    div[data-type="Subhead"] {
-      grid-column: span 2;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
     }
+
+    // div[data-type="Subhead"] {
+    //   grid-column: span 2;
+    // }
   }
 
 
@@ -120,8 +132,12 @@
     row-gap: 20px;
     column-gap: 10px;
 
-    div[data-type="Subhead"] {
-      grid-column: span 2;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
     }
+
+    // div[data-type="Subhead"] {
+    //   grid-column: span 2;
+    // }
   }
 }
