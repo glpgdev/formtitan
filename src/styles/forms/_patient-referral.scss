@@ -6,9 +6,9 @@
     row-gap: 20px;
     column-gap: 10px;
 
-    @media (max-width: 450px) {
-      display: flex;
-      flex-direction: column;
+    @media (max-width: 768px) {
+      display: flex !important;
+      flex-direction: column !important;
     }
   }
 
