@@ -16,16 +16,6 @@
     }
   }
 
-  //address state and zip code on same line
-  #e70 {
-    @media (max-width: 768px) {}
-      > div[data-type="Input Fields"] {
-        &:nth-of-type(13), &:nth-of-type(14) {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-  }
-
   //paragraph grid
   div[data-type="Paragraph"], div[data-type="Subhead"] {
     grid-column: span 2;
