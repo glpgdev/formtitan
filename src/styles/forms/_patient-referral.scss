@@ -22,7 +22,7 @@
   }
 
   //paragraph grid
-  div[data-type="Paragraph"] {
+  div[data-type="Paragraph"], div[data-type="Subhead"] {
     grid-column: span 2;
     margin: 0;
 
@@ -45,7 +45,7 @@
   address
   #e70 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
 
     @media (max-width: 768px) {
