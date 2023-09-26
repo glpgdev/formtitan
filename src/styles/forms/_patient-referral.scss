@@ -28,6 +28,10 @@
     }
   }
 
+  //submit button on own line
+  div[data-type="Button"].ft--theme--Button--primary {
+    grid-column: span 2;
+  }
   
 
 }
