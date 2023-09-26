@@ -1,20 +1,10 @@
 #patient-referral {
 
-  // provider information
-  #e70 {
+  #e70, #e37, #e47, #e20 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
     column-gap: 10px;
-
-    // div[data-type="Subhead"] .ft--theme--Typography--subhead {
-    //   grid-column: span 2 !important;
-    //   margin-top: 0 !important;
-    // }
-
-    // > div:first-of-type {
-    //   grid-column: span 2;
-    // }
 
     @media (max-width: 450px) {
       display: flex;
@@ -33,80 +23,114 @@
       font-size: 0.833rem !important;
     }
   }
+}
+  // provider information
+//   #e70 {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     row-gap: 20px;
+//     column-gap: 10px;
 
-  // address span
-  // div[data-type="Auto Fit Container"].ft--e37--root {
-  //   grid-column: span 2;
+//     // div[data-type="Subhead"] .ft--theme--Typography--subhead {
+//     //   grid-column: span 2 !important;
+//     //   margin-top: 0 !important;
+//     // }
 
-  //   @media (max-width: 450px) {
-  //     grid-column: auto;
-  //   }
-  // }
+//     // > div:first-of-type {
+//     //   grid-column: span 2;
+//     // }
+
+//     @media (max-width: 450px) {
+//       display: flex;
+//       flex-direction: column;
+//     }
+//   }
+
+//   //paragraph grid
+//   div[data-type="Paragraph"], div[data-type="Subhead"] {
+//     grid-column: span 2;
+//     margin: 0;
+
+//     div {
+//       font-weight: 600;
+//       color: #102a43 !important;
+//       font-size: 0.833rem !important;
+//     }
+//   }
+
+//   // address span
+//   // div[data-type="Auto Fit Container"].ft--e37--root {
+//   //   grid-column: span 2;
+
+//   //   @media (max-width: 450px) {
+//   //     grid-column: auto;
+//   //   }
+//   // }
 
   
-  // office contact information
-  #e37 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      row-gap: 20px;
-      column-gap: 10px;
+//   // office contact information
+//   #e37 {
+//       display: grid;
+//       grid-template-columns: 1fr 1fr;
+//       row-gap: 20px;
+//       column-gap: 10px;
 
-      @media (max-width: 450px) {
-        display: flex;
-        flex-direction: column;
-      }
+//       @media (max-width: 450px) {
+//         display: flex;
+//         flex-direction: column;
+//       }
 
-      // div[data-type="Subhead"] .ft--theme--Typography--subhead {
-      //   grid-column: span 2;
-      //   margin-top: 0 !important;
-      // }
+//       // div[data-type="Subhead"] .ft--theme--Typography--subhead {
+//       //   grid-column: span 2;
+//       //   margin-top: 0 !important;
+//       // }
 
-      // > div[data-type="Input Fields"]:first-of-type {
-      //   grid-column: span 2;
-      // }
-    }
+//       // > div[data-type="Input Fields"]:first-of-type {
+//       //   grid-column: span 2;
+//       // }
+//     }
 
-  // address span
-  // div[data-type="Auto Fit Container"].ft--e37--root {
-  //   grid-column: span 2;
+//   // address span
+//   // div[data-type="Auto Fit Container"].ft--e37--root {
+//   //   grid-column: span 2;
 
-  //   @media (max-width: 450px) {
-  //     grid-column: auto;
-  //   }
-  // }
+//   //   @media (max-width: 450px) {
+//   //     grid-column: auto;
+//   //   }
+//   // }
 
-  // IS a minor patient info
-  #e47 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 10px;
+//   // IS a minor patient info
+//   #e47 {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     row-gap: 20px;
+//     column-gap: 10px;
 
-    @media (max-width: 450px) {
-      display: flex;
-      flex-direction: column;
-    }
+//     @media (max-width: 450px) {
+//       display: flex;
+//       flex-direction: column;
+//     }
 
-    // div[data-type="Subhead"] {
-    //   grid-column: span 2;
-    // }
-  }
+//     // div[data-type="Subhead"] {
+//     //   grid-column: span 2;
+//     // }
+//   }
 
 
-  // NOT a minor patient info
-  #e20 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 10px;
+//   // NOT a minor patient info
+//   #e20 {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     row-gap: 20px;
+//     column-gap: 10px;
 
-    @media (max-width: 768px) {
-      display: flex;
-      flex-direction: column;
-    }
+//     @media (max-width: 768px) {
+//       display: flex;
+//       flex-direction: column;
+//     }
 
-    // div[data-type="Subhead"] {
-    //   grid-column: span 2;
-    // }
-  }
-}
+//     // div[data-type="Subhead"] {
+//     //   grid-column: span 2;
+//     // }
+//   }
+// }
