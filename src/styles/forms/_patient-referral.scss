@@ -39,13 +39,19 @@
     grid-column: span 2;
   }
   
-  .ft--e45--root.ft--theme--FormField--buttongroup.ft--theme--FormField--contained button.ftselected {  background-color: #2681c2 !important;
-  color: #fff !important;
-}
-.ft--e45--root.ft--theme--FormField--buttongroup.ft--theme--FormField--contained button {
-  background-color: #b7c5d2 !important;
-  color: #102a43 !important;
-}
+  .ft--e45--root.ft--theme--FormField--buttongroup.ft--theme--FormField--contained button {
+    background-color: #b7c5d2 !important;
+    color: #102a43 !important;
+    border-radius: 6px;
+    padding: 10px 28px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .ft--e45--root.ft--theme--FormField--buttongroup.ft--theme--FormField--contained button.ftselected {  
+    background-color: #2681c2 !important;
+    color: #fff !important;
+  }
 
 }
   
