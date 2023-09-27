@@ -20,12 +20,13 @@
   div[data-type="Paragraph"], div[data-type="Subhead"] {
     grid-column: span 2;
     margin: 0;
+    font-weight: 600;
+    color: #102a43 !important;
+    font-size: 1rem !important;
+  }
 
-    div {
-      font-weight: 600;
-      color: #102a43 !important;
-      font-size: 1rem !important;
-    }
+  div[data-type="Paragraph"] {
+    padding-top: 10px;
   }
 
   //submit button on own line
